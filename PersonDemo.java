@@ -1,3 +1,13 @@
+public class PersonDemo {
+    public static void main(String[] args) {
+        Person person1 = new Person("Bob", 30);
+        Person person2 = new Person();
+
+        person1.displayPerson();
+        person2.displayPerson();
+    }
+}
+
 class Person {
     String name;
     int age;
@@ -18,12 +28,3 @@ class Person {
     }
 }
 
-public class PersonDemo {
-    public static void main(String[] args) {
-        Person person1 = new Person("Bob", 30);
-        Person person2 = new Person();
-
-        person1.displayPerson();
-        person2.displayPerson();
-    }
-}
