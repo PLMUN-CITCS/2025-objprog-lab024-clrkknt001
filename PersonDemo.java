@@ -27,4 +27,3 @@ class Person {
         this.age = 0;
     }
 }
-
